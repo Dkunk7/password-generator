@@ -20,12 +20,12 @@ function writePassword() {
     
     if (!length) {
       alert("You gotta fit the parameters, yo!");
-      return writePassword();
+      return checkLength();
     }
     
     else if (length > 128 || length < 1) {
       alert("You gotta fit the parameters, yo!");
-      return writePassword();
+      return checkLength();
     };
   }
   checkLength();
